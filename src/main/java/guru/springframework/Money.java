@@ -31,7 +31,6 @@ public class Money implements Expression {
                 && this.currency == money.currency;
     }
 
-    @Override
     public Money reduce(String to){
         return this;
     }
